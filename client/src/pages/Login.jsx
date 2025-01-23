@@ -11,12 +11,12 @@ const Login = () => {
         <Form onSubmit={loginUser}>
             <Row 
                 style={{
-                    height: "100vh",
+                    height: "100%",
                     justifyContent:"center",
                     paddingTop:"10%",
                 }}
             >
-                <Col xs={6}>
+                <Col xs={6} style={{width:"400px"}}>
                     <Stack gap={3}>
                         <h2>Login</h2>
 
@@ -26,7 +26,7 @@ const Login = () => {
                             {isLoginLoading? "Getting you in...": "Login"}
                         </Button>
 
-                        {loginError?.error &&                         <Alert variant="danger">
+                        {loginError?.error && <Alert variant="danger">
                             <p>{loginError?.message}</p>
                             </Alert>} 
 

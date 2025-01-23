@@ -53,7 +53,7 @@ const Chatbox = () => {
                 value={textMessage} 
                 onChange={setTextMessage} 
                 fontFamily="nunito" 
-                borderColor="rgba(72,,112,223,0.2"
+                borderColor="rgba(72,112,223,0.2)"
             />
             <button className="send-btn" onClick={() => sendTextMessage(textMessage, user, currentChat._id, setTextMessage)}>
                 <svg

@@ -1,0 +1,21 @@
+.links{
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.links:hover{
+    color: rgb(33, 37, 41);
+    font-weight: 650;
+    background-color: aliceblue;
+}
+.notifications{
+    padding: 6px 8px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+.notifications:hover{
+    color: rgb(33, 37, 41);
+    background-color: aliceblue;
+}
