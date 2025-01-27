@@ -22,7 +22,7 @@ const NavBar = () => {
                         user && (<>
                             <Notification class="notifications"/>
                             {/* <Link onClick={() => logoutUser()} to="/login" className="link-light text-decoration-none" >Logout</Link> */}
-                            <Link onClick={() => logoutUser()} to="/login" class="links" >Logout</Link>
+                            <Link onClick={() => logoutUser()} to="/login" class="logout-links" >Logout</Link>
                         </>)
                     }
                     {!user && (<>

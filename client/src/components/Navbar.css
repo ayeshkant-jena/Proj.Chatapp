@@ -7,9 +7,21 @@
 }
 .links:hover{
     color: rgb(33, 37, 41);
-    font-weight: 650;
     background-color: aliceblue;
 }
+.logout-links{
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: 650;
+}
+.logout-links:hover{
+    color: white;
+    background-color: rgb(217, 42, 42);
+}
+
 .notifications{
     padding: 6px 8px;
     border-radius: 20px;
